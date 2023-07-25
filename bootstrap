@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+#
+#
+#
+cd repo
+tar -czvf grub-btrfs.tar.gz grub-btrfs
+cd ..
+mv repo/grub-btrfs.tar.gz .
